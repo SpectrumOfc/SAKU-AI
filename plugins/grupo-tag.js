@@ -1,12 +1,1 @@
-let handler = async (m, { conn, text, participants}) => {
-let users = participants.map(u => u.id).filter(v => v !== conn.user.jid)
-if (!m.quoted) return m.reply(`🚨 𝐕𝐮𝐞𝐥𝐯𝐞 𝐚 𝐮𝐬𝐚𝐫 𝐞𝐥 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐩𝐞𝐫𝐨 𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐢𝐞𝐧𝐝𝐨 𝐚 𝐮𝐧 𝐦𝐞𝐧𝐬𝐚𝐣𝐞.`)
-conn.sendMessage(m.chat, { forward: m.quoted.fakeObj, mentions: users } )
-}
-handler.help = ['tag']
-handler.tags = ['group']
-handler.command = /^(totag|tag)$/i
-handler.admin = true
-handler.group = true
-
-export default handler
+function _0x197d(){const _0x5ba968=['jid','fakeObj','quoted','admin','🚨\x20𝐕𝐮𝐞𝐥𝐯𝐞\x20𝐚\x20𝐮𝐬𝐚𝐫\x20𝐞𝐥\x20𝐜𝐨𝐦𝐚𝐧𝐝𝐨\x20𝐩𝐞𝐫𝐨\x20𝐫𝐞𝐬𝐩𝐨𝐧𝐝𝐢𝐞𝐧𝐝𝐨\x20𝐚\x20𝐮𝐧\x20𝐦𝐞𝐧𝐬𝐚𝐣𝐞.','371496nVNXNh','20AOoxrD','chat','reply','map','8lpugaj','54156FawXor','3112050GlqBNa','sendMessage','1190241COOTui','group','42jjxYhR','tag','191427NLKkca','command','99392GcWgYF','help','116804HdepJJ'];_0x197d=function(){return _0x5ba968;};return _0x197d();}const _0x150ad8=_0x10a9;(function(_0x54d17d,_0x9ab30){const _0xf50572=_0x10a9,_0x1a8dc0=_0x54d17d();while(!![]){try{const _0x448fb1=parseInt(_0xf50572(0x10e))/0x1+-parseInt(_0xf50572(0x114))/0x2+parseInt(_0xf50572(0x10a))/0x3+-parseInt(_0xf50572(0x10c))/0x4*(parseInt(_0xf50572(0x115))/0x5)+parseInt(_0xf50572(0x103))/0x6*(parseInt(_0xf50572(0x108))/0x7)+-parseInt(_0xf50572(0x102))/0x8*(parseInt(_0xf50572(0x106))/0x9)+parseInt(_0xf50572(0x104))/0xa;if(_0x448fb1===_0x9ab30)break;else _0x1a8dc0['push'](_0x1a8dc0['shift']());}catch(_0x20ec98){_0x1a8dc0['push'](_0x1a8dc0['shift']());}}}(_0x197d,0x1f649));let handler=async(_0x59d2af,{conn:_0x13e43c,text:_0x246d2d,participants:_0x2bd7b5})=>{const _0x47f976=_0x10a9;let _0x39c1f2=_0x2bd7b5[_0x47f976(0x118)](_0x57068=>_0x57068['id'])['filter'](_0x10d66b=>_0x10d66b!==_0x13e43c['user'][_0x47f976(0x10f)]);if(!_0x59d2af['quoted'])return _0x59d2af[_0x47f976(0x117)](_0x47f976(0x113));_0x13e43c[_0x47f976(0x105)](_0x59d2af[_0x47f976(0x116)],{'forward':_0x59d2af[_0x47f976(0x111)][_0x47f976(0x110)],'mentions':_0x39c1f2});};handler[_0x150ad8(0x10d)]=[_0x150ad8(0x109)],handler['tags']=[_0x150ad8(0x107)],handler[_0x150ad8(0x10b)]=/^(totag|tag)$/i,handler[_0x150ad8(0x112)]=!![],handler[_0x150ad8(0x107)]=!![];function _0x10a9(_0x4da6c2,_0x43f35f){const _0x197d63=_0x197d();return _0x10a9=function(_0x10a9f7,_0xce196e){_0x10a9f7=_0x10a9f7-0x102;let _0x59fb78=_0x197d63[_0x10a9f7];return _0x59fb78;},_0x10a9(_0x4da6c2,_0x43f35f);}export default handler;
