@@ -1551,7 +1551,7 @@ global.dfail = (type, m, conn) => {
         restrict: '🚨 𝐄𝐬𝐭𝐞 𝐜𝐨𝐦𝐚𝐧𝐝𝐨 𝐞𝐬𝐭𝐚 𝐝𝐞𝐬𝐚𝐜𝐭𝐢𝐯𝐚𝐝𝐨 𝐩𝐨𝐫 𝐝𝐞𝐜𝐢𝐬𝐢ó𝐧 𝐝𝐞 𝐦𝐢 𝐜𝐫𝐞𝐚𝐝𝐨𝐫.'
          }[type];
   const aa = {quoted: m, userJid: conn.user.jid};
-  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '❱❱ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 ❰❰', body: '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'}}}}, aa);
+  const prep = generateWAMessageFromContent(m.chat, {extendedTextMessage: {text: msg, contextInfo: {externalAdReply: {title: '❱❱ 𝙄𝙉𝙁𝙊𝙍𝙈𝘼𝘾𝙄𝙊𝙉 ❰❰', body: '𝐒𝐀𝐊𝐔 𝐀𝐈', thumbnail: imagen1, sourceUrl: 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u'}}}}, aa);
   if (msg) return conn.relayMessage(m.chat, prep.message, {messageId: prep.key.id});
 };
 
