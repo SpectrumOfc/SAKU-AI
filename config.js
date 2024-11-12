@@ -10,12 +10,12 @@ import moment from 'moment-timezone';
 global.botnumber = ""
 
 global.owner = [
-  ['5214274130309', '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑', true],
-  ['5214274130309', '𝐕𝐄𝐍𝐓𝐀𝐒 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐃𝐎 ✅', true],
-  ['522731307252', '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 - 𝟐', true],
-  ['573235515945', '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 - 𝟑', true],
-  ['51964661950', '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 - 𝟒', true],
-  ['51939249284', '', true],
+  ['56949786710', '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋', true],
+  ['51939249284', '𝐂𝐑𝐄𝐀𝐃𝐎𝐑 👑', true],
+  ['543704813556', '𝐎𝐖𝐍𝐄𝐑 ✅', true],
+  ['', '', true],
+  ['', '', true],
+  ['', '', true],
   ['', '', true],
   ['', '', false],
   ['', '', true],
@@ -32,15 +32,15 @@ global.owner = [
   ['']
 ];
 
-global.suittag = ['5214274130309'];
-global.prems = ['5214274130309'];
+global.suittag = ['543704813556'];
+global.prems = ['543704813556'];
 
-global.packname = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
-global.author = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
-global.wm = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
-global.titulowm = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
-global.titulowm2 = `𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑`
-global.igfg = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
+global.packname = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
+global.author = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
+global.wm = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
+global.titulowm = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
+global.titulowm2 = `𝐒𝐀𝐊𝐔 𝐀𝐈 🦋`
+global.igfg = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
 global.wait = '𝘾𝙖𝙧𝙜𝙖𝙣𝙙𝙤...';
 
 global.imagen1 = fs.readFileSync('./Menu2.jpg');
@@ -61,9 +61,9 @@ global.mes = d.toLocaleDateString('es', {month: 'long'});
 global.año = d.toLocaleDateString('es', {year: 'numeric'});
 global.tiempo = d.toLocaleString('en-US', {hour: 'numeric', minute: 'numeric', second: 'numeric', hour12: true});
 //* ****************************
-global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑`;
-global.gt = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
-global.mysticbot = '𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑';
+global.wm2 = `▸ ${dia} ${fecha}\n▸ 𝐒𝐀𝐊𝐔 𝐀𝐈 🦋`;
+global.gt = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
+global.mysticbot = '𝐒𝐀𝐊𝐔 𝐀𝐈 🦋';
 global.md = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u';
 global.mysticbot = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u';
 global.canalbot = 'https://whatsapp.com/channel/0029VajUEsCB4hdNTg04zh1u';
