@@ -1,4 +1,4 @@
-console.log('🔮ㅤIniciando XiaBot...');
+console.log('Iniciando Saku-Ai...');
 import {join, dirname} from 'path';
 import {createRequire} from 'module';
 import {fileURLToPath} from 'url';
@@ -13,11 +13,11 @@ const {name, author} = require(join(__dirname, './package.json'));
 const {say} = cfonts;
 const rl = createInterface(process.stdin, process.stdout);
 
-say('Xia\nBot\nMD', {
+say('Saku\nAi', {
   font: 'block',
   align: 'center',
   gradient: ['blue', 'blue']});
-say(`La mejor Bot de WhatsApp By: Angelito`, {
+say(`Spectrum Ofc`, {
   font: 'console',
   align: 'center',
   gradient: ['blue', 'blue']});
