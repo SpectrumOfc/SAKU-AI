@@ -541,7 +541,7 @@ setInterval(async () => {
   if (stopped === 'close' || !conn || !conn.user) return;
   const _uptime = process.uptime() * 1000;
   const uptime = clockString(_uptime);
-  const bio = `𝐂𝐔𝐄𝐍𝐓𝐀 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐃𝐀 ✅ | 𝐒𝐏𝐄𝐂𝐓𝐑𝐔𝐌 𝐀𝐈 👑`;
+  const bio = `𝐂𝐔𝐄𝐍𝐓𝐀 𝐕𝐄𝐑𝐈𝐅𝐈𝐂𝐀𝐃𝐀 ✅ | 𝐒𝐀𝐊𝐔 𝐀𝐈 🦋`;
   await conn.updateProfileStatus(bio).catch((_) => _);
 }, 60000);
 function clockString(ms) {
